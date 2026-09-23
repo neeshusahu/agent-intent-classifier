@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "IntentClassifier.Server",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/IntentClassifier.Server/bin/Debug/net9.0/IntentClassifier.Server.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/IntentClassifier.Server",
+            "stopAtEntry": false
+        }
+    ]
+}
